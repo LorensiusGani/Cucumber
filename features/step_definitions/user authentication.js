@@ -1,3 +1,7 @@
+/*#Tool Cucumber Node js :
+- npm init 
+- npm install --save-dev @cucumber/cucumber
+*/
 const { Given, When, Then } = require("@cucumber/cucumber");
 
 Given("the user is on login page", function () {
